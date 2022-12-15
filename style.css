@@ -1,0 +1,8 @@
+.body{
+    display: flex;
+    flex-direction: column; /* makes 4 vertical sections with a header and footer */
+}
+
+.header-container{
+    
+}
