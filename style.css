@@ -3,6 +3,10 @@
     flex-direction: column;  /*makes 4 vertical sections with a header and footer */
 }
 
+.header-container, .top-container, .middle-top-container, .middle-bottom-container, .bottom-container, .footer{
+    padding: 0px 200px;
+}
+
 .header-container{
     background-color: #1F2937;
     display: flex;
@@ -38,7 +42,15 @@ a, a:link, a:visited{
 }
 
 .top-container{
-    
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    margin: -8px;
+}
+
+.section-one{
+    display: flex;
+    flex-direction: column;
 }
 
 
