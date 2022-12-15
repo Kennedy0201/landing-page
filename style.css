@@ -1,8 +1,9 @@
 .body{
-    display: flex;
+    /*display: flex;
     flex-direction: column; /* makes 4 vertical sections with a header and footer */
+    background-color: yellow;
 }
 
-.header-container{
-    
-}
+/*.header-container{
+    background-color: #1F2937;
+}*/
