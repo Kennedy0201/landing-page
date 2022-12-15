@@ -1,9 +1,45 @@
 .body{
-    /*display: flex;
-    flex-direction: column; /* makes 4 vertical sections with a header and footer */
-    background-color: yellow;
+    display: flex;
+    flex-direction: column;  /*makes 4 vertical sections with a header and footer */
 }
 
-/*.header-container{
+.header-container{
     background-color: #1F2937;
-}*/
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    justify-content: space-between;
+    align-items: center;
+    margin: -8px;
+}
+
+.left-header{
+    font-weight: 900;
+}
+
+.right-header ul{
+    display: flex;
+    list-style-type: none; /* removes bullet points*/
+    gap: 25px;
+}
+
+
+a, a:link, a:visited{
+    text-decoration: none; /* removes underline from links */
+    color:#E5E7EB
+}
+
+.middle-top-container, .bottom-container{
+    background-color: white;
+}
+
+.middle-bottom-container{
+    background-color: #E5E7EB;
+}
+
+.top-container{
+    
+}
+
+
+
