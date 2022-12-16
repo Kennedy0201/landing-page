@@ -3,18 +3,14 @@
     flex-direction: column;  /*makes 4 vertical sections with a header and footer */
 }
 
-.header-container, .top-container, .middle-top-container, .middle-bottom-container, .bottom-container, .footer{
-    padding: 0px 200px;
-}
-
+/* header section*/
 .header-container{
     background-color: #1F2937;
-    display: flex;
-    font-size: 18px;
     color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: -8px;
 }
 
 .left-header{
@@ -27,25 +23,16 @@
     gap: 25px;
 }
 
-
 a, a:link, a:visited{
-    text-decoration: none; /* removes underline from links */
     color:#E5E7EB
+    text-decoration: none; /* removes underline from links */
 }
 
-.middle-top-container, .bottom-container{
-    background-color: white;
-}
-
-.middle-bottom-container{
-    background-color: #E5E7EB;
-}
-
+/* top section */
 .top-container{
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    margin: -8px;
 }
 
 .section-one{
@@ -53,5 +40,30 @@ a, a:link, a:visited{
     flex-direction: column;
 }
 
+/* Middle Top Section*/
+.middle-top-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
 
+.image-description-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
 
+/* middle bottom section */
+.middle-bottom-container{
+    background-color: #E5E7EB;
+}
+
+/* bottom section */
+
+.bottom-container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
