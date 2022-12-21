@@ -1,0 +1,56 @@
+.section-one, .section-two, .section-six{
+    background-color: #1F2937;
+}
+
+.section-three, .section-five{
+    background-color: white;
+}
+
+.section-four{
+    background-color: #E5E7EB;
+}
+
+.center-all{
+    margin: 10px 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-middle-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-description-pair{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-middle-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-left{
+    display: flex;
+    flex-direction: column;
+}
+
