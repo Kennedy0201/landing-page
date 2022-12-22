@@ -19,6 +19,25 @@
     justify-content: space-between;
 }
 
+.header .header-left{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header-right ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    gap: 15px;
+    
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: #E5E7EB
+}
+
 .top-section{
     display: flex;
     justify-content: space-between;
