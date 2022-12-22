@@ -22,7 +22,7 @@
 .header .header-left{
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .header-right ul{
@@ -41,6 +41,23 @@ a:link, a:visited{
 .top-section{
     display: flex;
     justify-content: space-between;
+}
+
+.top-section-left h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.top-section-left p{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.top-section-left button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 700;
 }
 
 .top-middle-section{
